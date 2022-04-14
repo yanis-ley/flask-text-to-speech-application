@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+::selection{
+    background-color:lightslategray;
+    color: white;
+}
+
+
+.first-container{
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.speechContainer{
+    background-color: rgb(255, 255, 255);
+    float: left;
+    height: 100%;
+    width: 40%;
+}
+
+.headline{
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    font-size: 50px;
+}
+
+.form{
+    margin-left: 185px;
+}
+
+.button{
+    background-color: rgb(225, 234, 239);
+    width: 100%;
+    height: 37px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Sora', sans-serif;
+}
+
+.third-container{
+    width: 30%;
+    height: 100%;
+    float: right;
+    background-color: rgb(255, 255, 255);
+}
+
